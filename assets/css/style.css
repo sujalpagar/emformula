@@ -1779,13 +1779,13 @@ section {
 
 
 /*** Section Title ***/
-.section-title {
+.section1-title {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
 }
 
-.section-title::before {
+.section1-title::before {
   position: absolute;
   content: "";
   width: calc(100% + 80px);
@@ -1796,7 +1796,7 @@ section {
   z-index: -1;
 }
 
-.section-title::after {
+.section1-title::after {
   position: absolute;
   content: "";
   width: calc(100% + 120px);
@@ -1807,12 +1807,12 @@ section {
   z-index: -1;
 }
 
-.section-title.text-start::before {
+.section1-title.text-start::before {
   width: calc(100% + 40px);
   left: 0;
 }
 
-.section-title.text-start::after {
+.section1-title.text-start::after {
   width: calc(100% + 60px);
   left: 0;
 }
